@@ -1,0 +1,29 @@
+{
+    "name": "ekolo/installer",
+    "description": "Ekolo Framework application installer.",
+    "keywords": ["ekolo", "framework"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Don de Dieu Bolenge",
+            "email": "dondedieubolenge@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ekolo/eko-console": "^0.0.1"
+    },
+    "bin": [
+        "ekolo"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ekolo\\Component\\Installer\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
