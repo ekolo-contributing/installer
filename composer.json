@@ -14,7 +14,7 @@
         "ekolo/eko-console": "^0.0.1"
     },
     "bin": [
-        "ekolo"
+        "bin/ekolo"
     ],
     "autoload": {
         "psr-4": {
