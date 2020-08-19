@@ -1,6 +1,7 @@
 {
     "name": "ekolo/installer",
     "description": "Ekolo Framework application installer.",
+    "version": "0.0.3",
     "keywords": ["ekolo", "framework"],
     "license": "MIT",
     "authors": [
@@ -11,12 +12,15 @@
     ],
     "require": {
         "php": ">=7.2",
-        "ekolo/eko-console": "^0.0.2"
+        "symfony/console": "^5.1"
     },
     "bin": [
         "bin/ekolo"
     ],
     "autoload": {
+        "files": [
+            "src/Helpers/constantes.php"
+        ],
         "psr-4": {
             "Ekolo\\Component\\Installer\\": "src/"
         }

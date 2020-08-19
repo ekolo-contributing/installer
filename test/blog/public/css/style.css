@@ -1,0 +1,18 @@
+body{
+    background-color: #fff;
+}
+
+.ekolo-container {
+    text-align: center !important;
+    margin: 10% auto;
+}
+
+.ekolo-container p a {
+    color: #007fdb;
+    text-decoration: none;
+}
+
+.ekolo-container p a:hover {
+    text-decoration: underline;
+    transition: linear 0.45s;
+}

@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "files": [
+            "bootstrap/helpers.php", 
+            "bootstrap/constantes.php"
+        ],
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "require": {
+        "ekolo/ekolo-framework": "^0.3.8"
+    }
+}

@@ -1,5 +1,4 @@
 #!/usr/bin/env php
-#!/usr/bin/env php
 <?php
 	/*
 	|--------------------------------------------------------------------------
@@ -15,4 +14,12 @@
 		require __DIR__.'/../vendor/autoload.php';
 	}
 
-	(new Ekolo\Component\Installer\Installer)->run();
+	use Symfony\Component\Console\Application;
+	use Ekolo\Component\Installer\Commands;
+
+	$application = new Application;
+	$application->add(new Commands);
+
+	$application->run();
+
+	// (new Ekolo\Component\Installer\Application)->run();
